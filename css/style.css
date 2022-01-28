@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#slider {
+    width: 80%;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+#slider>.container {
+    width: 278%;
+    display: flex;
+    transform: translateX(0px);
+    transition: transform 0.5s ease;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 25%;
+    cursor: pointer;
+}
+
+button>i {
+    font-size: 2em;
+}
+
+#left {
+    left: 5%;
+}
+
+#right {
+    right: 5%;
+}
